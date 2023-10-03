@@ -18,10 +18,10 @@ public class EjemplosBasicos {
 
 	public static void main(String[] args) {
 		//Archivos de propiedades
-		//archivoPropiedades();
+		archivoPropiedades();
 
 		//Archivos de Registro
-		archivoRegistro();
+		//archivoRegistro();
 
 		//Manejo de carpetas (directorios)
 //		manejoCarpetas();
@@ -33,15 +33,13 @@ public class EjemplosBasicos {
 	private static void archivoPropiedades() {
 		ResourceBundle resourceBundle;
 
-		resourceBundle = ResourceBundle.getBundle("MiRecurso",new Locale("en","US"));
-		JOptionPane.showMessageDialog(null,resourceBundle.getString("baseDatosAWS"));
+
+		resourceBundle = ResourceBundle.getBundle("conexiones", new Locale("",""));
+		JOptionPane.showMessageDialog(null,resourceBundle.getString("usuario"));
+		resourceBundle.getString("usuario");
 
 
-		resourceBundle = ResourceBundle.getBundle("MiRecurso",new Locale("pt","BR"));
-		JOptionPane.showMessageDialog(null,resourceBundle.getString("saludoBienvenida"));
 
-		resourceBundle = ResourceBundle.getBundle("MiRecurso", new Locale("",""));
-		JOptionPane.showMessageDialog(null,resourceBundle.getString("saludoBienvenida"));
 	}
 
 	private static void archivoRegistro() {

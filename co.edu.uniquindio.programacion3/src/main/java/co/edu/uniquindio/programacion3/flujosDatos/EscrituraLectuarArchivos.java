@@ -7,11 +7,11 @@ public class EscrituraLectuarArchivos {
 
 	public static void main(String[] args) {
 		
-//		fileReaderYWriter_V1();
-//		fileReaderYWriter_V2();
-//		fileReaderYWriter_V3();
+		//fileReaderYWriter_V1();
+		//fileReaderYWriter_V2();
+		//fileReaderYWriter_V3();
 		
-//		bufferReaderYWriter_V1();
+		//bufferReaderYWriter_V1();
 		bufferReaderYWriter_V2();
 		
 	}
@@ -94,7 +94,8 @@ public class EscrituraLectuarArchivos {
 //				FileWriter fw=new FileWriter("C://td//directorioPrueba//fichero3.txt");
 //				FileReader fr=new FileReader("C://td//directorioPrueba//fichero3.txt"))
 		FileWriter fw=new FileWriter("/Users/fira_dev/td_per/ws/td/directorioPrueba/fichero3.txt");
-		FileReader fr=new FileReader("/Users/fira_dev/td_per/ws/td/directorioPrueba/fichero3.txt"))
+		FileReader fr=new FileReader("/Users/fira_dev/td_per/ws/td/directorioPrueba/fichero3.txt")
+		)
 		{
 			//Escribimos en el fichero un String y un caracter 97 (a)
 			fw.write("Esto es una prueb_");
