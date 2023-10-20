@@ -16,7 +16,7 @@ public class MiHilo2 extends Thread{
 		//a todos los m�todos de Thread, incluido el m�todo getName().
 		try {
 			for (int cont=0;cont<10;cont++){
-				Thread.sleep(400);
+				Thread.sleep(4000);
 				System.out.println("En "+getName()+ ", el recuento es "+cont);
 			}
 		}catch (InterruptedException exc){

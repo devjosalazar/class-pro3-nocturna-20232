@@ -5,7 +5,7 @@ public class MainEjemplo2_Herencia {
 	public static void main(String[] args) {
 		System.out.println("Iniciando hilo principal.");
 
-		MiHilo2 mh=new MiHilo2("#1");
+		MiHilo2 mh=new MiHilo2("Hilo 1");
 		mh.start();
 
 		for (int i=0;i<50;i++){
